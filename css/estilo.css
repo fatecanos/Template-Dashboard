@@ -1,0 +1,31 @@
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.img{
+    border-radius: 50%;
+    width: 100%;
+    height: 75%;
+}
+
+.invocador{
+    padding: 3%;
+}
+
+.invocador caption h5{
+    text-align: center;
+}
+
+.atualizarInvocador{
+    margin: 15%;
+    align-items: center;
+}
+
+.tabelaResultados .row div{
+    padding: 1%;
+    border: 1px solid;
+    min-height: 250px;
+    min-width: 50%;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dashboard</a>
+            <!--STYLIZED DROPDOWN -->
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Selecione um invocador cadastrado:
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Invocador1</a>
+                        <a class="dropdown-item" href="#">Invocador2</a>
+                        <a class="dropdown-item" href="#">Invocador3</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="container">
+        <div class="row">
+            <article class="invocador col-md-4">
+                <figure>
+                    <!-- SUMMONER ICON -->
+                    <img class="img img-circle"
+                        src="https://ddragon.leagueoflegends.com/cdn/8.3.1/img/profileicon/770.png" alt="">
+                    <caption class="row">
+                        <center>
+                            <h5>[Summoner Name]</h5>
+                            <figure>
+                                <figcaption>Ferro 3</figcaption>
+                                <img src="img/ferro.png" alt="ouro">
+                            </figure>
+                        </center>
+                        <button class="btn btn-primary col-md-12">Atualizar</button>
+                    </caption>
+                </figure>
+            </article>
+            <session class="col-md-8 tabelaResultados">
+                <div class="row" style="margin-top:2%;">
+                    <div class="frequenciaCampeoes col-md-6">
+                        [CHAMPIONS FREQUENCY]
+                    </div>
+                    <div class="historico col-md-6">
+                        [MATCHS HISTORIC]
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="campeaoPrincipal col-md-6">
+                        [MAIN CHAMPION]
+                    </div>
+                    <div class="vitorias col-md-6">
+                        [VICTORYS NUMBER]
+                    </div>
+                </div>
+            </session>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <p class="text-center">Todos os Direitos Reservados - &copy; Fatec-MC, 2019</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    </body>
+</html>
